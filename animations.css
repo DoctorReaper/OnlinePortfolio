@@ -1,0 +1,25 @@
+a {
+   color: #fff; 
+   background-color: #343a40;
+   transition: all 1s ease-out;
+}
+
+.current{
+   background-color:  #6c757d; 
+}
+
+a:hover{
+    color: #6c757d;
+}
+
+nav {
+    background-color: #343a40;
+}
+
+img{
+    transition: .4s;
+}
+
+img:hover {
+    transform: translate3d(0,-100px,0);
+}
