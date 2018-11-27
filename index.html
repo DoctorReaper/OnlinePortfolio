@@ -2,17 +2,17 @@
 <html>
     <head>
         <link type="text/css" rel="stylesheet" href="bootstrap-4.1.2-dist/css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="animations.css">
     </head>
     <body>
-        <div class="container">
-            <!--The navbar to other parts of the website-->
-            <nav class="nav nav-fill nav-pills">
-                <a class="nav-item nav-link active" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="balakumar_aboutme.html">About Me</a>
-                <a class="nav-item nav-link" href="resume.html">Resume</a>
-                <a class="nav-item nav-link" href="projects.html">Projects</a>
-            </nav>
-        </div>
+        <!--The navbar to other parts of the website-->
+        <nav class="nav">
+            <a class="nav-item nav-link selecy" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="balakumar_aboutme.html">About Me</a>
+            <a class="nav-item nav-link" href="resume.html">Resume</a>
+            <a class="nav-item nav-link" href="projects.html">Projects</a>
+            <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+        </nav>
         <!--The header for home page-->
         <div class="jumbotron row card">
             <div class="flex-row">
@@ -20,7 +20,7 @@
                 <p class="col-9 float-left">Hi, I'm Sai. Welcome to my portfolio, to learn more about me<br>
                     <a href="balakumar_aboutme.html">click here</a>
                 </p>
-                <img class="card-img col-3 float-right" src="images/ghost.jpg" alt="Dublin High School"/>
+                <img class="card-img col-3 float-right myimg" src="images/ghost.jpg" alt="Dublin High School"/>
             </div>
         </div>
         <!--Projects Section(Top Half)-->
@@ -99,6 +99,9 @@
         <footer class="jumbotron">
             <div class="row">
                 <div class="flex-row">
+                    <i class="fas fa-stroopwafel"></i> <!-- this icon's 1) style prefix == fas and 2) icon name == stroopwafel -->
+                    <i class="fas fa-stroopwafel"></i> <!-- using an <i> element to reference the icon -->
+                    <span class="fas fa-stroopwafel"></span> <!-- using a <span> element to reference the icon -->
                     <a class="col-2 float-left" href="https://mail.google.com"><img class="card-img" src="images/" alt="Mail"></a>
                     <a class="col-2 float-left" href="https://facebook.com"><img class="card-img" src="images/" alt="Facebook"></a>
                     <img class="card-img col-3 float-right" src="images/ghost.jpg" alt="Dublin High School"/>
@@ -106,4 +109,5 @@
             </div>
         </footer>
     </body>
+    <!--Use fontawesome.com for mail and discord links-->
 </html>

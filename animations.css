@@ -16,10 +16,14 @@ nav {
     background-color: #343a40;
 }
 
-img{
+.myimg {
     transition: .4s;
 }
 
-img:hover {
+.myimg:hover {
     transform: translate3d(0,-100px,0);
+}
+
+.select {
+    background-color:  #6c757d;
 }
