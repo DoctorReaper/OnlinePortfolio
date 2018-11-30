@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
+     <head>
         <link type="text/css" rel="stylesheet" href="bootstrap-4.1.2-dist/css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="animations.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     </head>
     <body>
         <!--The navbar to other parts of the website-->
         <nav class="nav">
-            <a class="nav-item nav-link selecy" href="index.html">Home</a>
-            <a class="nav-item nav-link" href="balakumar_aboutme.html">About Me</a>
-            <a class="nav-item nav-link" href="resume.html">Resume</a>
-            <a class="nav-item nav-link" href="projects.html">Projects</a>
-            <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+            <h4 class="col-7 nav-item nav-link veryspecial">Sairam Balakumar</h4>
+            <a class="nav-item nav-link special" href="index.html"><h4>Home</h4></a>
+            <a class="nav-item nav-link special" href="balakumar_aboutme.html"><h4>About Me</h4></a>
+            <a class="nav-item nav-link special" href="resume.html"><h4>Resume</h4></a>
+            <a class="nav-item nav-link special current" href="projects.html"><h4>Projects</h4></a>
+            <a class="nav-item nav-link special " href="contact.html"><h4>Contact Me</h4></a>
         </nav>
+        <!--The header for home page-->
         <div class="jumbotron row card">
             <div class="flex-row">
                 <h1 class="col-9 float-left">Projects</h1>
@@ -25,12 +28,27 @@
             <div class="flex-row">
                 <iframe class="float-left card-img col-5" allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/244917160/?autostart=false" frameborder="0" allowfullscreen></iframe>
                 <div class="float-right col-7">
-                    <h5>Boxy's World</h5>
-                    <h6>September 2018</h6>
-                    <p>This is a project that I compeleted for Computer Science Principles with my partner Alexander Baker.
-                    The </p>
+                    <h2>Boxy's World</h2>
+                    <h3>September 2018</h3>
+                    <h4>This is a scratch game that I made with my partner, Alex Baker. Scratch is simple to use and if used 
+                    to its full potential can make some amazing things. Our game is about a box, Boxy, who gets his ball stolen
+                    by Flamming Red Hair Guy (FRHG) and has to travel through his world to get it back. This game would fall under
+                    the platformer category. The purpose of this projects was to introduce us to basic coding and teamwork. We saw
+                    learned how coding might look like and learned to work together, communicate, and help each other out. The idea
+                    for this game came from looking into other platformer games and wanting to make one ourselves. I had a great time
+                    working on this project with Alex and learned a lot by making this game. <a href="https://docs.google.com/document/d/1OiRCA13t8dp5dfcAvacr3pncm48R2BtnoXNxlC7fdhg/edit?usp=sharing">Link to project documentation.</a> </h4>
                 </div>
             </div>
             </div>
         </div>
+        <!--Footer-->
+        <footer class="jumbotron">
+            <div class="row">
+                <h1 class="col-2"><a class="large" href="contact.html"><i class="fas fa-envelope"></i></a></h1>
+                <h1 class="col-7"><a class="large" href="https://www.dublin.k12.ca.us/Domain/132"><i class="fas fa-school"></i></a></h1>
+                <img class="card-img col-3 float-right nav-img" src="images/profile.jpg" alt="Dublin High School"/>
+            </div>
+        </footer>
+    </body>
+    <!--Use fontawesome.com for mail and discord links-->
 </html>

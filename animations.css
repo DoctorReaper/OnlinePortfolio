@@ -1,4 +1,4 @@
-a {
+.special {
    color: #fff; 
    background-color: #343a40;
    transition: all 1s ease-out;
@@ -8,7 +8,7 @@ a {
    background-color:  #6c757d; 
 }
 
-a:hover{
+.special:hover{
     color: #6c757d;
 }
 
@@ -16,14 +16,47 @@ nav {
     background-color: #343a40;
 }
 
-.myimg {
-    transition: .4s;
+
+.nav-img {
+    border-radius: 50%;
+    height: 40%;
+    width: 40%;
 }
 
-.myimg:hover {
-    transform: translate3d(0,-100px,0);
+.veryspecial {
+    color: #fff;
+    background-color: #343a40;
+    transition: all .5s ease-out;
 }
 
-.select {
-    background-color:  #6c757d;
+.slink {
+    color: #343a40;
+    transition: all 1s ease-out;
+}
+
+.slink:hover {
+    color: #fff;
+    font-size: 50px;
+}
+
+.large {
+    font-size: 100px;
+    color: #343a40;
+    transition: all 1s ease-out;
+}
+
+.large:hover {
+    color:  #6c757d;
+    font-size: 125px;
+}
+
+.exlarge {
+    font-size: 200px;
+    color: #343a40;
+    transition: all 1s ease-out;
+}
+
+.exlarge:hover {
+    color:  #6c757d;
+    font-size: 250px;
 }
