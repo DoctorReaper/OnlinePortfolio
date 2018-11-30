@@ -60,3 +60,17 @@ nav {
     color:  #6c757d;
     font-size: 250px;
 }
+
+.nomargin{
+    margin-bottom: 0px;
+}
+
+.nopadding {
+    padding-bottom: 0px;
+}
+
+.myimg {
+    position: relative;
+    bottom: 200px;
+}
+
