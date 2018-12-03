@@ -12,7 +12,7 @@
     color: #6c757d;
 }
 
-nav {
+.nav {
     background-color: #343a40;
 }
 
@@ -21,6 +21,8 @@ nav {
     border-radius: 50%;
     height: 40%;
     width: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .veryspecial {
@@ -29,20 +31,11 @@ nav {
     transition: all .5s ease-out;
 }
 
-.slink {
-    color: #343a40;
-    transition: all 1s ease-out;
-}
-
-.slink:hover {
-    color: #fff;
-    font-size: 50px;
-}
 
 .large {
     font-size: 100px;
-    color: #343a40;
-    transition: all 1s ease-out;
+    color: rgb(245, 245, 245);
+    transition: all .5s ease-out;
 }
 
 .large:hover {
@@ -72,5 +65,41 @@ nav {
 .myimg {
     position: relative;
     bottom: 200px;
+}
+
+.txtlarge {
+    font-size: 100px;
+}
+
+.nav-item {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.background{
+    background-image: url(images/jon-flobrant-183186-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.jumbotron {
+    background-color: transparent;
+    color: rgb(245, 245, 245);
+}
+
+.plus {
+    padding: 60px;
+}
+
+.project-margin {
+    margin-bottom: 30px;
 }
 
