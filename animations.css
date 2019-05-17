@@ -21,7 +21,7 @@
     border-radius: 50%;
     height: 40%;
     width: 40%;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -103,3 +103,14 @@
     margin-bottom: 30px;
 }
 
+.txt {
+    font-size: 35px;
+}
+
+.txt2 {
+    font-size: 30px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
