@@ -4,6 +4,10 @@
    transition: all 1s ease-out;
 }
 
+.quickimg {
+   padding-bottom: 20px;
+}
+
 .current{
    background-color:  #6c757d; 
 }
